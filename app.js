@@ -3,7 +3,7 @@ const app = express();
 
 // Define routes
 app.get("/", (req, res) => {
-  res.send("Hello, World this is the 4th deploy!");
+  res.send("Hello, World!");
 });
 
 module.exports = app; // Export the app, not the server
